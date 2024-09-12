@@ -51,3 +51,5 @@ After entering all the required details, click on test connection. The ouput sho
 
 [Click here](https://docs.dremio.com/24.3.x/sonar/client-applications/drivers/arrow-flight-sql-odbc-driver/#configuring-on-macos) for MacOS configuration.
 
+## Connecting Dremio to Notebook
+
