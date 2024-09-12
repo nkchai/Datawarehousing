@@ -53,3 +53,4 @@ After entering all the required details, click on test connection. The ouput sho
 
 ## Connecting Dremio to Notebook
 
+Refer to this [notebook](./dremio-odbc.ipynb) for connection steps. 
