@@ -23,3 +23,16 @@ Head to this [link](https://www.dremio.com/drivers/odbc/) to download the Dremio
 6. After the installation is complete, click Close.
 
 ## Configuring Dremio ODBC Driver
+
+### Windows
+1. Go to Start Menu > Window Administrative Tools. Click ODBC Data Sources (64-bit).
+2. In the ODBC Data Source Administrator (64-bit) dialog, click System DSN.
+3. Select Arrow Flight SQL ODBC DSN and click Configure.
+4. In the HOST field, specify the hostname of the server or its IP address.
+5. In the PORT field, specify the port to use for connections from Arrow Flight SQL ODBC client applications, which is 32010 by default.
+6. In the UID field, specify the username to use when connecting to Dremio.
+7. In the PWD field, specify either a password or a personal access token.
+8. In the UseEncryption field, specify one of these values:
+    
+    - `true`, if Dremio is configured for encrypted communication with your Arrow Flight SQL ODBC client applications. (For information about encrypting communication, see Arrow Flight Encryption.)
+    - `false`, if Dremio is not configured for encrypted communication with your Arrow Flight SQL ODBC client applications. Dremio is unencrypted by default.
