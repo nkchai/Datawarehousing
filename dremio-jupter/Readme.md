@@ -46,3 +46,8 @@ Head to this [link](https://www.dremio.com/drivers/odbc/) to download the Dremio
 After entering all the required details, click on test connection. The ouput should look like this
 
 ![](./images/test-connection.png)
+
+### MacOS 
+
+[Click here](https://docs.dremio.com/24.3.x/sonar/client-applications/drivers/arrow-flight-sql-odbc-driver/#configuring-on-macos) for MacOS configuration.
+
