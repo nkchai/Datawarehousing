@@ -1,4 +1,4 @@
-# Connect Dremio to Notbook with ODBC
+# Connect Dremio to Notebook with ODBC
 
 ## Download Dremio ODBC driver
 
