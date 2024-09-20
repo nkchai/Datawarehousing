@@ -21,4 +21,14 @@ Follow below steps to create a blob Storage
 
     ![](./images/create-resource-group.png)
 
-4. 
+4. Provide a storage account name **this must be unique** and then click on `Review + Create`
+
+    ![](./images/account-name.png)
+
+5. Check all the details and click on `create`.
+
+    ![](./images/create.png)
+
+6. After it's deployed click on `Go to resource`.
+
+    ![](./images/goto-resource.png)
