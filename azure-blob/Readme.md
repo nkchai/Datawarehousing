@@ -13,11 +13,11 @@ Follow below steps to create a blob Storage
 
     ![](./images/free-services.png)
 
-2. Under Azure Blob Storage click on create.
+2. Under Azure Blob Storage click on `Create`.
 
     ![](./images/Azure%20Blob%20storage.png)
 
-3. Select Subscription `Azure for Students` if not selected. Under the `resource group` section, click on `create new` give it a name and then click on `ok`.
+3. Select Subscription `Azure for Students` if not selected. Under the `resource group` section, click on `Create new` give it a name and then click on `ok`.
 
     ![](./images/create-resource-group.png)
 
@@ -25,7 +25,7 @@ Follow below steps to create a blob Storage
 
     ![](./images/account-name.png)
 
-5. Check all the details and click on `create`.
+5. Check all the details and click on `Create`.
 
     ![](./images/create.png)
 
