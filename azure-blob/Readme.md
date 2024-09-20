@@ -41,7 +41,7 @@ Follow below steps to create a blob Storage
 
 2. Click on `+ Container`, give it a name and then click on `Create`.
 
-    ![](./images/create-container.png)
+    ![](./images/createcontainer.png)
  
 ## Uploading Files to the Blob
 
