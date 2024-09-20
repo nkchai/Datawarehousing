@@ -21,7 +21,7 @@ Follow below steps to create a blob Storage
 
     ![](./images/create-resource-group.png)
 
-4. Provide a storage account name **this must be unique** and then click on `Review + Create`
+4. Provide a storage account name **this must be unique** and then click on `Review + Create`.
 
     ![](./images/account-name.png)
 
@@ -32,3 +32,23 @@ Follow below steps to create a blob Storage
 6. After it's deployed click on `Go to resource`.
 
     ![](./images/goto-resource.png)
+
+## Creating a Container
+
+1. Go to `Data Storage` tab and click on `Containers`.
+
+    ![](./images/data-storage.png)
+
+2. Click on `+ Container`, give it a name and then click on `Create`.
+
+    ![](./images/create-container.png)
+ 
+## Uploading Files to the Blob
+
+1. Go to `Overview` tab and click on `Upload`.
+
+    ![](./images/overview.png)
+
+2. Click on `Browse for files` and select the files that should be uploaded. In the drop-down menu of `Select an existing container` select the container that was created earlier and then click on upload.
+
+    ![](./images/upload.png)
