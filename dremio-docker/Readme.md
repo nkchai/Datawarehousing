@@ -2,7 +2,8 @@
 
 
 * Install Docker Desktop from this [link](https://www.docker.com/products/docker-desktop/).
-* In the terminal pull the dremio docker image.
+
+* In the terminal pull the dremio docker image. **Run this only once**.
 
     ```
     docker pull dremio/dremio-oss
@@ -13,3 +14,4 @@
     ```
 * Open `localhost:9047` in a browser to access dremio.
 
+>**Note**: You can also use Docker Desktop to deploy the image. Once you pulled the image and deployed it from the terminal, it will be showed under container section in Docker desktop UI.
