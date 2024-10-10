@@ -15,3 +15,11 @@
 * Open `localhost:9047` in a browser to access dremio.
 
 >**Note**: You can also use Docker Desktop to deploy the image. Once you pulled the image and deployed it from the terminal, it will be showed under container section in Docker desktop UI.
+
+# Setup
+
+* Fill the below form with your details and click `Next`.
+
+    !['signup page'](images/signup-page.png)
+
+
