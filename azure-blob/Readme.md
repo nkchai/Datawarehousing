@@ -52,3 +52,32 @@ Follow below steps to create a blob Storage
 2. Click on `Browse for files` and select the files that should be uploaded. In the drop-down menu of `Select an existing container` select the container that was created earlier and then click on upload.
 
     ![](./images/upload.png)
+
+3. Take a note of `Storage account name` and one of the accesskey. These are required to connect to dremio in the next section.
+    
+    ![](./images/access-keys.png)
+
+# Connecting to Dremio
+
+1. Click on add sources and select `Azure Storage`
+
+    ![alt text](images/add-source.png)
+
+    ![alt text](images/azure-storage.png)
+
+2. Enter the name you  would like to display under `Name` and the `Account Name` is the storage account name in this case it will be `itmd526test` (derived from the previous section). The `Account Version ` is `Storagev1` and the `Authentication Type` is `Shared access key`. Paste the key value under `Secret Store` that was copied in the previous section and then click `Save`
+    
+    ![alt text](images/new-storage.png)
+
+3. All the containers that are present in the storage account will be shown here you can access the objects inside the container as a folder.
+
+    ![alt text](images/folder-1.png)
+    ![alt text](images/folder-2.png)
+
+4. In order for the file to be access by the `SQL Runner` we need to first specify the `Format` and `Extract Column Names` if any by opening the file in the container. Click `Save` the file will be automatically opened in `SQL Runner`.
+
+    ![alt text](images/file-tweak.png)
+
+5. Click on `Run` to get the output and `Save View`
+     
+    ![alt text](images/run-query.png)
