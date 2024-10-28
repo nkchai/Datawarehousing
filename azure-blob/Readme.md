@@ -78,6 +78,16 @@ Follow below steps to create a blob Storage
 
     ![alt text](images/file-tweak.png)
 
-5. Click on `Run` to get the output and `Save View`
+6. Go to the `Datasets` pane (first one in far left menu) and click on `Add Space`. Give it the `Name` `Bronze` and `Save`.
+
+    ![alt text](images/add-space.png)
+    ![alt text](images/bronze.png)
+
+7. Click on `Run` to get the output and `Save View`
      
     ![alt text](images/run-query.png)
+
+8. Give a `Name` for the view and save it under `Bronze` Space.
+
+    ![alt text](images/save-view.png)
+    
