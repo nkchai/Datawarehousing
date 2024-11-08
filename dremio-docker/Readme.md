@@ -3,7 +3,9 @@
 
 * Install Docker Desktop from this [link](https://www.docker.com/products/docker-desktop/).
 
-* In the terminal pull the dremio docker image. **Run this only once**.
+* After completing the installation open docker desktop and complete the initial setup.
+
+* After completing the intial seyup on docker destop UI. Open terminal and in the terminal pull the dremio docker image. **Run this only once**.
 
     ```
     docker pull dremio/dremio-oss
