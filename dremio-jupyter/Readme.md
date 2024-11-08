@@ -47,6 +47,10 @@ After entering all the required details, click on test connection. The ouput sho
 
 ![](./images/test-connection.png)
 
+If you get an error related to **Encryption Settings** Go to **Advanced** tab and then uncheck **Use Encryption**.
+
+![alt text](images/encryption.png)
+
 ### MacOS 
 
 [Click here](https://docs.dremio.com/24.3.x/sonar/client-applications/drivers/arrow-flight-sql-odbc-driver/#configuring-on-macos) for MacOS configuration.
