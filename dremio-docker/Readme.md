@@ -5,7 +5,7 @@
 
 * After completing the installation open docker desktop and complete the initial setup.
 
-* After completing the intial seyup on docker destop UI. Open terminal and in the terminal pull the dremio docker image. **Run this only once**.
+* After completing the intial setup on docker destop UI. Open terminal and in the terminal pull the dremio docker image. **Run this only once**.
 
     ```
     docker pull dremio/dremio-oss
