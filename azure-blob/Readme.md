@@ -17,7 +17,7 @@ Follow below steps to create a blob Storage
 
     ![](./images/Azure%20Blob%20storage.png)
 
-3. Select Subscription `Azure for Students` if not selected. Under the `resource group` section, click on `Create new` give it a name and then click on `ok`.
+3. Select Subscription `Azure for Students` if not selected. Under the `resource group` section, click on `Create new` give it a name and then click on `ok`. **If you don't see the Subscription *Azure for Students* please log out and login (or) wait a couple of minutes and then relogin.**
 
     ![](./images/create-resource-group.png)
 
