@@ -1,6 +1,7 @@
 # Datawarehousing
 
-## Index
+## Follow the below Index
+
 Follow the instructions in the given order.
 
 1. [Installing Dremio on Docker](dremio-docker)
