@@ -21,4 +21,25 @@
     GRANT all on test_db.* to test_user@'%';
     ```
 
+## Connecting DB to Dremio
+
+1. Click on add sources `+` and select `MYSQL`
+    
+    ![alt text](images/add-sources.png)
+
+2. Give the details as follows. In the authentication section select `Master Credentails` and provide user name and password of the user you created earlier. In this case it's `test_user` and `test@123`.
+
+    To find your system IP follow the links: 
+    - [Windows](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
+    - [MacOS](https://www.security.org/vpn/find-mac-ip-address/)
+
+    ![alt text](images/auth-details.png)
+
+3. Click on Save and you should see the mysql db in the sources pane.
+
+    **If you get an error while connecting please wait a while and then try connecting again. If you still couldn't connect try connecting to the Database with the user credentails instead of root from the SQL client and see if its working or not.**
+
+    **If you create another table it might not show in the dremio instantly. To trigger it try running a query from the SQL runner in the dremio you should get the output and the new table should be now visible in under the DB source.**
+
+    ![alt text](images/mysql-source.png)
 
