@@ -39,7 +39,7 @@
 
     **If you get an error while connecting please wait a while and then try connecting again. If you still couldn't connect try connecting to the Database with the user credentails instead of root from the SQL client and see if its working or not.**
 
-    **If you create another table it might not show in the dremio instantly. To trigger it try running a query from the SQL runner in the dremio you should get the output and the new table should be now visible in under the DB source.**
+    **If you create another table it might not show in the dremio instantly. To trigger it try running a query with the newly created table from the SQL runner in the dremio you should get the output and the new table should be now visible in under the DB source.**
 
     ![alt text](images/mysql-source.png)
 
